@@ -16,6 +16,21 @@
             Console.WriteLine(k1);
 			Console.WriteLine(k2);
             Console.WriteLine(k3);
+
+			Console.WriteLine("\n--- 50FT Áremelés után ---");
+            f1.Aremeles(50);
+			t1.Aremeles(50);
+            t2.Aremeles(50);
+            k1.Aremeles(50);
+			k2.Aremeles(50);
+			k3.Aremeles(50);
+			Console.WriteLine(f1);
+			Console.WriteLine(t1);
+			Console.WriteLine(t2);
+			Console.WriteLine(k1);
+			Console.WriteLine(k2);
+			Console.WriteLine(k3);
+
 		}
-    }
+	}
 }

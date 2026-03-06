@@ -23,6 +23,11 @@ namespace Italautomata
 		public int Ar { get => ar; set => ar = value; }
 		public int Cukor { get => cukor; set => cukor = value; }
 
+		public void Aremeles(int osszeg)
+		{
+			this.ar += osszeg;
+		}
+
 		public override string ToString()
 		{
 			return $"{this.nev} {this.cukor} cukorral {this.ar}Ft";
