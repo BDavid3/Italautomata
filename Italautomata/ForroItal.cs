@@ -9,7 +9,7 @@ namespace Italautomata
 	internal class ForroItal
 	{
 		private string nev;
-		private int ar;
+		protected int ar;
 		private int cukor;
 
 		public ForroItal(string nev, int ar, int cukor)
@@ -26,6 +26,11 @@ namespace Italautomata
 		public void Aremeles(int osszeg)
 		{
 			this.ar += osszeg;
+		}
+
+		public virtual void Aremeles()
+		{
+			this.ar = (int)(this.ar + this.ar * 0.1);
 		}
 
 		public override string ToString()

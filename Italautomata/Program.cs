@@ -31,6 +31,23 @@
 			Console.WriteLine(k2);
 			Console.WriteLine(k3);
 
+			Console.WriteLine("\n--- +ar*0.1 Áremelés után ---");
+			f1.Aremeles();
+			k1.Aremeles();
+			k2.Aremeles();
+			k3.Aremeles();
+			Console.WriteLine(f1);
+			Console.WriteLine(t1);
+			Console.WriteLine(t2);
+			Console.WriteLine(k1);
+			Console.WriteLine(k2);
+			Console.WriteLine(k3);
+
+			Console.WriteLine("\n--- tea +ar*0.15 Áremelés után ---");
+			t1.Aremeles();
+			t2.Aremeles();
+			Console.WriteLine(t1);
+			Console.WriteLine(t2);
 		}
 	}
 }
