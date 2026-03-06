@@ -31,8 +31,10 @@
 			Console.WriteLine(k2);
 			Console.WriteLine(k3);
 
-			Console.WriteLine("\n--- +ar*0.1 Áremelés után ---");
+			Console.WriteLine("\n--- Áremelés után ---");
 			f1.Aremeles();
+			t1.Aremeles();
+			t2.Aremeles();
 			k1.Aremeles();
 			k2.Aremeles();
 			k3.Aremeles();
@@ -42,12 +44,10 @@
 			Console.WriteLine(k1);
 			Console.WriteLine(k2);
 			Console.WriteLine(k3);
+			Console.WriteLine();
 
-			Console.WriteLine("\n--- tea +ar*0.15 Áremelés után ---");
-			t1.Aremeles();
-			t2.Aremeles();
-			Console.WriteLine(t1);
-			Console.WriteLine(t2);
+			Capuccino c1 = new Capuccino("mogyorós capuccino", 350, 4, "sok tejjel",true);
+			Console.WriteLine(c1);
 		}
 	}
 }

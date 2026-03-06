@@ -8,9 +8,9 @@ namespace Italautomata
 {
 	internal class ForroItal
 	{
-		private string nev;
+		protected string nev;
 		protected int ar;
-		private int cukor;
+		protected int cukor;
 
 		public ForroItal(string nev, int ar, int cukor)
 		{
@@ -21,7 +21,7 @@ namespace Italautomata
 
 		public string Nev { get => nev; set => nev = value; }
 		public int Ar { get => ar; set => ar = value; }
-		public int Cukor { get => cukor; set => cukor = value; }
+		public int Cukor { get => cukor;}
 
 		public void Aremeles(int osszeg)
 		{

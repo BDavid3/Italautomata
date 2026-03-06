@@ -17,6 +17,11 @@ namespace Italautomata
 
 		public string Tej { get => tej; set => tej = value; }
 
+		public override void Aremeles()
+		{
+			this.ar = (int)(this.ar + this.ar * 0.20);
+		}
+
 		public override string ToString()
 		{
 			return base.ToString() + $" {this.tej}";
